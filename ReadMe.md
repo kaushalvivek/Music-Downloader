@@ -1,11 +1,11 @@
 Music Downloader
 ===================
-Because Downloading Music is too much of a hassle nowadays.
-***Version***: *1.0*
-***Release***: *14-10-2017*
-***Author***: *Vivek Kaushal*
+Because Downloading Music is too much of a hassle nowadays.<br>
+***Version***: *1.0*<br>
+***Release***: *14-10-2017*<br>
+***Author***: *Vivek Kaushal*<br>
 http://vivekkaushal.com/
-
+<br>
 
 This **README** file contains :
  1.  Information About the Product
@@ -33,12 +33,12 @@ Requirements
 
 ####For Mac: 
 
-- Homebrew
+- Homebrew<br>
 Run this code in your terminal:
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-- Python3
+- Python3<br>
 Run this code in your ternimal:
 ```
 brew update
@@ -47,7 +47,7 @@ brew install python3
 
 ####For Linux:
 
-- Python3
+- Python3<br>
 Run this code in your terminal:
 ```
 sudo apt-get update
