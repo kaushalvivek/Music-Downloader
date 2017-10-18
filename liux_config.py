@@ -18,6 +18,7 @@ os.system ('sudo apt install youtube-dl')
 
 # For installation of BeautfulSoup4
 os.system ('sudo apt install python3-bs4')
-
-print("Your machine is now configured for musicdownloader.")
+print("*"*100)
+print("\t\tCongrats! Your machine is now configured for musicdownloader.")
+print("*"*100)
 exit()
