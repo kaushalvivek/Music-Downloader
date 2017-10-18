@@ -1,6 +1,6 @@
 Music Downloader
 ===================
-<<<<<<< HEAD
+
 Because Downloading Music is too much of a hassle nowadays.
 ***Version***: *2.0*
 ***Release***: *18-10-2017*
@@ -10,7 +10,7 @@ Because Downloading Music is too much of a hassle nowadays.<br>
 ***Version***: *1.0*<br>
 ***Release***: *14-10-2017*<br>
 ***Author***: *Vivek Kaushal*<br>
->>>>>>> d8c3e72a632dc37627baf3443e2fc4604d4e7fd8
+
 http://vivekkaushal.com/
 <br>
 
