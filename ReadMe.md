@@ -60,7 +60,7 @@ sudo apt-get install python3
 
 Installation Instructions
 --------------------------
-####For Mac:
+####For Mac:<br />
 Once the Requirements have been satisfied, use the ***mac_config.py*** configuration file to set your system up for **MusicDownoader**.
 
 Run The Following Code in your Terminal:
@@ -69,7 +69,7 @@ python3 mac_config.py
 ```
 This will return your installation status. Proceed with Usage Instructions.
 
-####For Linux:
+####For Linux: <br />
 Once the Requirements have been satisfied, use the ***linux_config.py*** configuration file to set your system up for **MusicDownoader**.
 
 Run The Following Code in your Terminal:
