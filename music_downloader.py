@@ -1,9 +1,9 @@
 '''
-A Simple Music Downloader.
-Because Downloading Free Music is not as convenient as it used to be.
+Music Downloader - 2.0
+Music Downloader with Best Songs Recommender.
 
 Vivek Kaushal
-6:21 13.10.2017
+10:56 17.10.2017
 '''
 
 import os
@@ -14,14 +14,40 @@ from bs4 import BeautifulSoup
 #   if multiple songs by the same artist
 #   are being downloaded.
 global_artist = ''
+    
+def download_best(artist):
+    r1 = requests.get("https://www.google.co.in/search?q="+artist+"+thetoptens.com")
+    soup = BeautifulSoup(r1.text, 'html.parser')
+    tag = soup.h3
+    if 'TheTopTens®' in tag.text:
+        linktag = tag.a
+        r = requests.get("http://google.co.in/"+linktag.attrs['href'])
+        soup = BeautifulSoup(r.text, 'html.parser')
+        divall = soup.findAll("div", {'class':'i'})
+        songs = []
+        print("\nFollowing are the 20 best songs by your artist of choice.")
+        print("If  an exact list of songs is not found, I try to come up with something close to it.\n")
+        print ('PS: In Beta phase, suggestions might be erroneous.\n')
+        for i in range (0, len(divall)) :
+            songs.append(divall[i].b.text)
+        for i in range (0,len(divall)) :
+            print (songs[i])
+        print ('\nThis list is for suggestions only, you can download any song you wish. (Even songs not on the list)\n')
+    else:
+        print ("\nSorry, I do not have this artist's discography, but you can still enter any song and try downloading.\n")
+    return
+
 
 while(True):
     # Check for whether an artist is predefined
     if global_artist == '':
-        print ("Enter Artist's Name:")
+        print ("\nEnter Artist's Name:")
         artist = input()
         artistns = artist.replace(' ','_')
-    print ("Enter Song's Name:")
+    suggestions_flag = input('Do you want song suggestions? (Y/n)')
+    if suggestions_flag in ('y','Y','YES','Yes','yes'):
+        download_best(artist)    
+    print ("\nEnter any Song's Name to Download it: ")
     song = input()
     # Scraping YouTube for the song link
     page = requests.get("https://www.youtube.com/results?search_query="+artist+"+"+song)
@@ -39,8 +65,8 @@ while(True):
     else:
         os.system("mkdir ~/Downloads/"+artistns)
     os.system("mv *.mp3 ~/Downloads/"+artistns+"/")
-    print ("Song Downloaded!")
-    print ("Stored in Downloads Folder.")
+    print ("\nSong Downloaded!")
+    print ("Stored in Downloads Folder.\n")
     print ("Enter the following Options to move ahead:")
     print ("'A' - to download another song by the same artist")
     print ("'B' - to download another song by a different artist")
