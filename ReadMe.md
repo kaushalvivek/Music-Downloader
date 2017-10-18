@@ -10,11 +10,11 @@ http://vivekkaushal.com/
 <br>
 
 This **README** file contains :
- 1. [About](About)
- 2. [Requirements](Requirements)
- 3. [Installation Instructions](Installation Instructions)
- 4. [Usage Instructions](Usage Instructions)
- 5. [Terms and Conditions](Terms and Conditions)
+ 1. [About](#about)
+ 2. [Requirements](#requirements)
+ 3. [Installation Instructions](#installation-instructions)
+ 4. [Usage Instructions](#usage-instructions)
+ 5. [Terms and Conditions](#terms-and-conditions)
  
 
 ----------
