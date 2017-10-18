@@ -10,17 +10,17 @@ http://vivekkaushal.com/
 <br>
 
 This **README** file contains :
- 1.  Information About the Product
- 2. Requirements
- 3. Installation Instructions
- 4. Usage Instructions
- 5. Terms and Conditions
+ 1. [About](#about)
+ 2. [Requirements](#requirements)
+ 3. [Installation Instructions](#installation-instructions)
+ 4. [Usage Instructions](#usage-instructions)
+ 5. [Terms and Conditions](#terms-and-conditions)
  
 
 ----------
 
 
-Product
+About
 --------
 
 >**MusicDownloader** is a product born out of necessity. Though the streaming services nowadays are pretty awesome, there are times when you just need the song. Old-fashioned way. On your machine. Or you need information about a new artist you have just been introduced to. This product solves that problem, by making downloading songs as easy as it gets. No more scrambling with scams and adware on mp3 download sites. <br />
@@ -33,7 +33,7 @@ Product
 Requirements
 ------------
 
-####For Mac: 
+#### For Mac: 
 
 - Homebrew<br>
 Run this code in your terminal:
@@ -47,7 +47,7 @@ brew update
 brew install python3
 ```
 
-####For Linux:
+#### For Linux:
 
 - Python3<br>
 Run this code in your terminal:
@@ -60,7 +60,7 @@ sudo apt-get install python3
 
 Installation Instructions
 --------------------------
-####For Mac:<br />
+#### For Mac:<br />
 Once the Requirements have been satisfied, use the ***mac_config.py*** configuration file to set your system up for **MusicDownoader**.
 
 Run The Following Code in your Terminal:
@@ -69,7 +69,7 @@ python3 mac_config.py
 ```
 This will return your installation status. Proceed with Usage Instructions.
 
-####For Linux: <br />
+#### For Linux: <br />
 Once the Requirements have been satisfied, use the ***linux_config.py*** configuration file to set your system up for **MusicDownoader**.
 
 Run The Following Code in your Terminal:
