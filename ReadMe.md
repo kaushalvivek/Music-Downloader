@@ -1,10 +1,10 @@
 Music Downloader
 ===================
 
-Because Downloading Music is too much of a hassle nowadays.
-***Version***: *2.0*
-***Release***: *18-10-2017*
-***Author***: *Vivek Kaushal*
+Because Downloading Music is too much of a hassle nowadays. <br />
+***Version***: *2.0* <br />
+***Release***: *18-10-2017* <br />
+***Author***: *Vivek Kaushal* <br />
 
 http://vivekkaushal.com/
 <br>
@@ -23,7 +23,7 @@ This **README** file contains :
 Product
 --------
 
->**MusicDownloader** is a product born out of necessity. Though the streaming services nowadays are pretty awesome, there are times when you just need the song. Old-fashioned way. On your machine. Or you need information about a new artist you have just been introduced to. This product solves that problem, by making downloading songs as easy as it gets. No more scrambling with scams and adware on mp3 download sites. 
+>**MusicDownloader** is a product born out of necessity. Though the streaming services nowadays are pretty awesome, there are times when you just need the song. Old-fashioned way. On your machine. Or you need information about a new artist you have just been introduced to. This product solves that problem, by making downloading songs as easy as it gets. No more scrambling with scams and adware on mp3 download sites. <br />
 >Hope you like it!
 
 
