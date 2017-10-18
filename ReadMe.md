@@ -102,7 +102,7 @@ PS: The 'Suggestions' is in Beta. It might yield buggy results.
 Enter Song's Name:
 Fix You
 ```
-Please note, that you need to be perfect with your input, the program is capable of dealing with typos and grammatical errors.
+Please note, that you need not be perfect with your input, the program is capable of dealing with simple typos.
 
 Once the download completes the following will be displayed:
 ```
