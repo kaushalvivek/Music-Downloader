@@ -5,11 +5,6 @@ Because Downloading Music is too much of a hassle nowadays.
 ***Version***: *2.0*
 ***Release***: *18-10-2017*
 ***Author***: *Vivek Kaushal*
-=======
-Because Downloading Music is too much of a hassle nowadays.<br>
-***Version***: *1.0*<br>
-***Release***: *14-10-2017*<br>
-***Author***: *Vivek Kaushal*<br>
 
 http://vivekkaushal.com/
 <br>
