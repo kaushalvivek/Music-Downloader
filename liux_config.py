@@ -1,21 +1,23 @@
 ''' 
-Configuration File for Linux Machines
+Configuration File for Linux Machines running debain
 to run the Application musicdownloader.py
 
 '''
+
+
 import os
 
 # For updating the system
-os.system ('sudo apt-get update')
+os.system ('sudo apt update')
 
 # For installation of pip3
-os.system ('sudo apt-get install python3-pip')
+os.system ('sudo apt install python3-pip')
 
 # For installation of Youtube - Downloader
-os.system ('sudo apt-get install youtube-dl')
+os.system ('sudo apt install youtube-dl')
 
 # For installation of BeautfulSoup4
-os.system ('sudo apt-get install python3-bs4')
+os.system ('sudo apt install python3-bs4')
 
-print ("\nYour machine is now configured for musicdownloader.\n")
+print("Your machine is now configured for musicdownloader.")
 exit()
