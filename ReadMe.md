@@ -1,9 +1,16 @@
 Music Downloader
 ===================
+<<<<<<< HEAD
+Because Downloading Music is too much of a hassle nowadays.
+***Version***: *2.0*
+***Release***: *18-10-2017*
+***Author***: *Vivek Kaushal*
+=======
 Because Downloading Music is too much of a hassle nowadays.<br>
 ***Version***: *1.0*<br>
 ***Release***: *14-10-2017*<br>
 ***Author***: *Vivek Kaushal*<br>
+>>>>>>> d8c3e72a632dc37627baf3443e2fc4604d4e7fd8
 http://vivekkaushal.com/
 <br>
 
@@ -21,7 +28,7 @@ This **README** file contains :
 Product
 --------
 
->**MusicDownloader** is a product born out of necessity. Though the streaming services nowadays are pretty awesome, there are times when you just need the song. Old-fashioned way. On your machine. This product solves that problem, by making downloading songs as easy as it gets. No more scrambling with scams and adware on mp3 download sites. 
+>**MusicDownloader** is a product born out of necessity. Though the streaming services nowadays are pretty awesome, there are times when you just need the song. Old-fashioned way. On your machine. Or you need information about a new artist you have just been introduced to. This product solves that problem, by making downloading songs as easy as it gets. No more scrambling with scams and adware on mp3 download sites. 
 >Hope you like it!
 
 
@@ -87,7 +94,16 @@ Now, specify the song and artist, as show in the example below:
 ```
 Enter Artist's Name:
 Coldplay
+```
+Choose if you want to see suggestions for songs by this artist:
+```
+Do you want song suggestions? (Y/n) Y
+```
 
+A list of the Artist's best songs will be displayed if you choose to see it for your reference, your download choice though is ***not limited*** to this list. You can choose to download ***any song by the artist***.
+
+PS: The 'Suggestions' is in Beta. It might yield buggy results.
+```
 Enter Song's Name:
 Fix You
 ```
