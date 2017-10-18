@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup
 #   if multiple songs by the same artist
 #   are being downloaded.
 global_artist = ''
-    
+invalid_count = 0
 def download_best(artist):
     r1 = requests.get("https://www.google.co.in/search?q="+artist+"+thetoptens.com")
     soup = BeautifulSoup(r1.text, 'html.parser')
@@ -39,6 +39,8 @@ def download_best(artist):
 
 
 while(True):
+    if invalid_count >= 5:
+        break
     # Check for whether an artist is predefined
     if global_artist == '':
         print ("\nEnter Artist's Name:")
@@ -71,7 +73,6 @@ while(True):
     print ("'A' - to download another song by the same artist")
     print ("'B' - to download another song by a different artist")
     print ("'Q' - to quit\n")
-    invalid_count = 0
     break_flag = 0
     while invalid_count < 5:
         if (break_flag):
@@ -92,12 +93,12 @@ while(True):
         else :
             print ('Enter a valid respose [A, B, Q]')
             invalid_count+=1
-    print("\nYou bored me.")
-    print("Bye.")
-    print('\nThanks for using!') 
-    print ('Checkout www.vivekkaushal.com for more such stuff.\n')
-    quit()
-
+    
+print("\nYou bored me.")
+print("Bye.")
+print('\nThanks for using!') 
+print ('Checkout www.vivekkaushal.com for more such stuff.\n')    
+quit()
 
 
 
