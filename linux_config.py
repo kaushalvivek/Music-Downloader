@@ -14,7 +14,7 @@ os.system ('sudo apt update')
 os.system ('sudo apt install python3-pip')
 
 # For installation of Youtube - Downloader
-os.system ('sudo apt install youtube-dl')
+os.system ('sudo pip3 install youtube-dl')
 
 # For installation of BeautfulSoup4
 os.system ('sudo apt install python3-bs4')
