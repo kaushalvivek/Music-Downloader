@@ -32,7 +32,7 @@ def download_best(artist):
             songs.append(divall[i].b.text)
         for i in range (0,len(divall)) :
             print (songs[i])
-        print ('\nThis list is for suggestions only, you can download any song you wish. (Even songs not on the list)\n')
+        print ('\nThis list is for suggestions only, you can download any song you wish. (Even songs that are not on the list)\n')
     else:
         print ("\nSorry, I do not have this artist's discography, but you can still enter any song and try downloading.\n")
     return

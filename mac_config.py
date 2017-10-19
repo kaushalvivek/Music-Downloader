@@ -12,5 +12,8 @@ os.system('brew install youtube-dl')
 # Installation of Beautiful Soup
 os.system('pip3 install BeautifulSoup4')
 
-print ("\nYour mac is now configured for musicdownloader.\n")
+
+print("*"*100)
+print ("\t\tYour mac is now configured for musicdownloader.")
+print("*"*100)
 exit()
