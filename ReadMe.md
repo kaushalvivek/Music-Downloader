@@ -123,7 +123,7 @@ ___________________
 
 Terms and Conditions
 --------------------
-This application is for educational purpose only, and I do no condone the download or distribution of illegal music. I do not take responsibility of what you choose to do with this application.
+This application is for educational purpose only, and I do no condone the download or distribution of illegal music. I do not take responsibility of what you choose to do with this application. The code is distributed under the **MIT License.**
 _______________
 
 For more such stuff, visit http://vivekkaushal.com.
