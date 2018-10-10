@@ -4,7 +4,6 @@ Music Downloader
 Because Downloading Music is too much of a hassle nowadays. <br />
 ***Version***: *2.0* <br />
 ***Release***: *18-10-2017* <br />
-***Author***: *Vivek Kaushal* <br />
 
 http://vivekkaushal.com/
 <br>
@@ -19,6 +18,10 @@ This **README** file contains :
 
 ----------
 
+**NOTE :** Update your youtube-dl if you're a current user and are facing download issues using:
+```
+sudo youtube-dl --update
+```
 
 About
 --------
