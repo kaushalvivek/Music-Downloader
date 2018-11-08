@@ -24,8 +24,9 @@ sudo youtube-dl --update
 ```
 
 If the issue persists, try the following solution by @Khang-NT:
+```bash
 pip install git+https://github.com/Khang-NT/youtube-dl.git@fix_js_func_not_found#egg=youtube-dl --upgrade
-
+```
 About
 --------
 
