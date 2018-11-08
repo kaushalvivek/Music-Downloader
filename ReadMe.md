@@ -18,10 +18,13 @@ This **README** file contains :
 
 ----------
 
-**NOTE :** Update your youtube-dl if you're a current user and are facing download issues using:
+**NOTE :** Update your youtube-dl if you're a current user and are facing download issues owing to YouTube Signature Extraction:
 ```
 sudo youtube-dl --update
 ```
+
+If the issue persists, try the following solution by @Khang-NT:
+pip install git+https://github.com/Khang-NT/youtube-dl.git@fix_js_func_not_found#egg=youtube-dl --upgrade
 
 About
 --------

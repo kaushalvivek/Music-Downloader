@@ -62,11 +62,17 @@ while(True):
     os.system('youtube-dl -x --audio-format mp3 --audio-quality 0 --output "%(title)s.%(ext)s" https://www.youtube.com/watch?v='+video_id)
    
    # Storing file at <artist> in Downloads Folder
-    if os.path.exists('~/Downloads/'+artistns):
+    if os.path.exists('~/Downloads/Music'):
+       pass
+    else:
+        os.system("mkdir ~/Downloads/Music")
+
+    if os.path.exists('~/Downloads/Music/'+artistns):
         pass
     else:
-        os.system("mkdir ~/Downloads/"+artistns)
-    os.system("mv *.mp3 ~/Downloads/"+artistns+"/")
+        os.system("mkdir ~/Downloads/Music/"+artistns)
+
+    os.system("mv *.mp3 ~/Downloads/Music/"+artistns+"/")
     print ("\nSong Downloaded!")
     print ("Stored in Downloads Folder.\n")
     print ("Enter the following Options to move ahead:")
